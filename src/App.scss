@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+@import "react-bootstrap-typeahead/css/Typeahead.css";
+
+.main {
+  min-height: calc(100vh - 146px);
+  border: 2px solid black;
+  border-bottom: none;
+  border-top: none;
+}
+
+.footerContainer {
+  padding: 2rem 0.25rem;
+  background-color: lightgray;
+  * {
+    text-align: center;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+/* ================= Hide X & Y Scrollbar ================= */
+body, html {
+  scrollbar-width: none;
+  -ms-overflow-style:none;
+  ::webkit-scrollbar {
+    display:none;
+  }
+}
+
+body {
+  background-color: #526170;
+}
+.jumbotron {
+  position: relative;
+  top: 3rem;
+}
+.card {
+  top: 3rem;
+  padding:2rem;
+}
